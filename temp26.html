@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <img src="https://github.com/nairx/temp-griet-a/blob/main/assets/images/ball.png?raw=true" id="ball" width="100px"/> 
+</div>
+<script>
+    ball.style.position="absolute";
+    let t= 0;
+    function f1(){
+        t++;
+        ball.style.top= t +"px";
+        if(t < 500) {
+            setTimeout(f1, 10);
+    }
+}
+f1()    
+     
+
+</script>
+</body>
+</html>
